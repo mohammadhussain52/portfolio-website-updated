@@ -1,0 +1,135 @@
+#contact {
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.myskill-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    line-height: 3rem;
+}
+
+.skills-img {
+    object-fit: contain;
+    width: 9vw;
+    height: 9rem;
+    background: #2b2b2b;
+    margin: 0.5rem;
+    border-radius: 1em;
+    padding: 1rem 1rem;
+}
+
+.skills-img:hover {
+    border: 1px solid #fff041;
+    transition: 0.1s ease;
+}
+
+span.myskills-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myskills-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+span.myskills-card:hover label {
+    background: #fff041;
+    color: #000;
+    transition: 0.2s ease;
+    border-radius: 2rem;
+    min-width: 8rem;
+}
+
+.contactpage-description {
+    padding: 1rem;
+    font-weight: 300;
+}
+
+.contactpage-title {
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+form.contact-form {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.name,
+.email,
+.subject,
+.message {
+    width: 100%;
+    font-size: medium;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40, 40, 40);
+}
+
+.submit-btn {
+    border: none;
+    background: #fff;
+    padding: 0.75rem 3.5rem;
+    border-radius: 0.5rem;
+    margin: 2rem 0;
+    cursor: pointer;
+    color: #000 !important;
+}
+
+.social-links {
+    width: 100%;
+    max-width: 60rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+}
+
+.social-icon {
+    font-size: 2.85rem;
+    margin: 0.5rem;
+    background: #fff041;
+    padding: 0rem 0.65rem;
+    border-radius: 100%;
+    color: #000;
+}
+
+@media (max-width: 450px) {
+    .myskills-card .skills-img {
+        width: 25vw !important;
+        height: 6rem !important;
+    }
+
+    .social-icon {
+        font-size: 2.60rem;
+    }
+
+    .myskill-title {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        line-height: 3rem;
+    }
+
+    .contactpage-title {
+        font-size: 2rem;
+    }
+}
