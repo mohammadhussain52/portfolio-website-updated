@@ -10,7 +10,7 @@ const resume = () => {
             <div className='resume-detail'>
                 <p>May 25 - Present</p>
                 <h3>Wordpress Developer</h3>
-                <p>Adalat Group</p>
+                <p>Resourcepad</p>
             </div>
             <div className='resume-detail'>
                 <p>October 24 - April 25</p>
