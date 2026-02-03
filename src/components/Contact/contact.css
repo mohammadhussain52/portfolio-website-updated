@@ -94,6 +94,9 @@ form.contact-form {
     cursor: pointer;
     color: #000 !important;
 }
+.submit-btn:hover {
+    background: #fff041;
+}
 
 .social-links {
     width: 100%;

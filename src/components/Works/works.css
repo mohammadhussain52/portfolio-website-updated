@@ -50,6 +50,10 @@
     transition: 0.5s ease;
     color: #000 !important;
 }
+.work-btn:hover {
+    background-color: #fff041;
+    color: #000;
+}
 
 .portfolios p {
     display: none;
