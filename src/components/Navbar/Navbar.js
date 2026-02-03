@@ -82,14 +82,14 @@ const Navbar = () => {
       </a>
 
       {/* Mobile Menu */}
-      <a href="/home" className="mob_menu">
+      <button className="mob_menu">
         <img
           src={menu}
           alt="Menu"
           className="mob-menu"
           onClick={() => setShowMenu(!showMenu)}
         />
-      </a>
+      </button>
       <div className="nav-menu" style={{ display: showMenu ? "flex" : "none" }}>
         <Link
           activeClass="active"
