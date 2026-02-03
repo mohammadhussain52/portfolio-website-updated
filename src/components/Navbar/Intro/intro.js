@@ -27,7 +27,7 @@ const Intro = () => {
         </p>
         <a href="https://www.linkedin.com/in/mohammad-hussain-769610281/">
           <button className="btn">
-            <img src={btnimage} alt="button image" className="btn-img" /> Hire
+            <img src={btnimage} alt="button" className="btn-img" /> Hire
             Me{" "}
           </button>
         </a>

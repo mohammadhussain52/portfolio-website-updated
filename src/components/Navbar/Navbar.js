@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <a href="#">
+      <a href="/home">
         <img src={logo} alt="logo" className="desktop-logo" />
       </a>
       <div className="desktop-menu">
@@ -82,7 +82,7 @@ const Navbar = () => {
       </a>
 
       {/* Mobile Menu */}
-      <a href="#" className="mob_menu">
+      <a href="/home" className="mob_menu">
         <img
           src={menu}
           alt="Menu"
