@@ -9,7 +9,6 @@ import Portfolio6 from "../../assets/K9.png";
 import Portfolio7 from "../../assets/DD.png";
 import Portfolio8 from "../../assets/QM.png";
 import Portfolio9 from "../../assets/ML.png";
-import Portfolio10 from "../../assets/PL.png";
 import Portfolio11 from "../../assets/FV.png";
 import Portfolio12 from "../../assets/ABZ.png";
 import portfolio13 from "../../assets/wood-pp.png"
@@ -48,12 +47,7 @@ const Works = () => {
       link: "https://moonlighttextile.com/",
       key: "wordpress",
     },
-    {
-      img: Portfolio10,
-      name: "Palm Living Dubai",
-      link: "https://palmviewliving.com/",
-      key: "wordpress",
-    },
+    
     {
       img: Portfolio12,
       name: "ABZ Appliances Repair",
