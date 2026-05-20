@@ -10,9 +10,9 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <a href="/home">
+      <button className="logo-btn" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
         <img src={logo} alt="logo" className="desktop-logo" />
-      </a>
+      </button>
       <div className="desktop-menu">
         <Link
           activeClass="active"
@@ -82,12 +82,11 @@ const Navbar = () => {
       </a>
 
       {/* Mobile Menu */}
-      <button className="mob_menu">
+      <button className="mob_menu" onClick={() => setShowMenu(!showMenu)}>
         <img
           src={menu}
           alt="Menu"
           className="mob-menu"
-          onClick={() => setShowMenu(!showMenu)}
         />
       </button>
       <div className="nav-menu" style={{ display: showMenu ? "flex" : "none" }}>
