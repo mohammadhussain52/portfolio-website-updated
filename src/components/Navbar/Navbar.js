@@ -34,7 +34,7 @@ const Navbar = () => {
           duration={500}
           className="desktop-menu-list-item"
         >
-          About
+          Home
         </Link>
         <Link
           activeClass="active"
