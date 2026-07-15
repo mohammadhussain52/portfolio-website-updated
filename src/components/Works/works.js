@@ -12,7 +12,8 @@ import Portfolio9 from "../../assets/ML.png";
 import Portfolio11 from "../../assets/FV.png";
 import Portfolio12 from "../../assets/ABZ.png";
 import portfolio13 from "../../assets/wood-pp.png";
-import portfolio14 from "../../assets/ARF.png"
+import portfolio14 from "../../assets/ARF.png";
+import portfolio15 from "../../assets/foundation.png"
 
 const Works = () => {
   const [tab, setTab] = useState(1);
@@ -95,6 +96,12 @@ const Works = () => {
       img: portfolio14,
       name: "African Relief Fund",
       link: "https://arf.org.uk",
+      key: "wordpress",
+    },
+    {
+      img: portfolio15,
+      name: "Foundation LMH",
+      link: "https://fondationlmh.org",
       key: "wordpress",
     }
   ];
