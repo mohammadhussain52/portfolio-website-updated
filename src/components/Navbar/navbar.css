@@ -92,6 +92,7 @@ img.mob-menu {
 
 .mob_menu {
     display: block;
+    border: none;
 }
 .logo-btn { 
     background: none; 
