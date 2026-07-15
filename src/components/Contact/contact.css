@@ -23,11 +23,11 @@
     margin: 0.5rem;
     border-radius: 1em;
     padding: 1rem 1rem;
+    transition: border 0.2s ease;
 }
 
 .skills-img:hover {
-    border: 1px solid #fff041;
-    transition: 0.1s ease;
+  border: 1px solid #fff041;
 }
 
 span.myskills-card {
@@ -41,6 +41,9 @@ span.myskills-card {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+span.myskills-card label {
+  transition: background 0.2s ease, color 0.2s ease, border-radius 0.2s ease, min-width 0.2s ease;
 }
 
 span.myskills-card:hover label {
