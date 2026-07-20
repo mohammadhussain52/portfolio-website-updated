@@ -8,13 +8,13 @@ const skills = () => {
   return (
    <section id='skills'> 
    <h1 className='skill-title'> What I <strong>Do?</strong></h1>
-   <p className='skill-description'>I'm a web developer with 1+ year of experience in WordPress, Shopify, and front-end development. I build clean, responsive websites that perform well and look great. Whether it's customizing WordPress, creating Shopify stores with Liquid, or handling HTML, CSS, JavaScript, and Tailwind. I focus on smooth, user-friendly experiences.</p>
+   <p className='skill-description'>I'm a web developer with 2+ year of experience in WordPress, Shopify, and front-end development. I build clean, responsive websites that perform well and look great. Whether it's customizing WordPress, creating Shopify stores with Liquid, or handling HTML, CSS, JavaScript, and Tailwind. I focus on smooth, user-friendly experiences.</p>
    <div className='skill-bars'>
     <div className='skillbar'>
         <img src={wordpress} alt='Wordpress icon' className='skillbar-img'/>
         <div className='skill-bar-text'>
             <h2>Wordpress Development</h2>
-            <p>I'm a WordPress developer with more than 1 year of experience building and customizing websites using themes, plugins, and page builders like Elementor, Divi and WPBakery. I focus on creating responsive, fast, and user-friendly sites that are easy to manage and tailored to each client's needs.</p>
+            <p>I'm a WordPress developer with more than 2 year of experience building and customizing websites using themes, plugins, and page builders like Elementor, Divi and WPBakery. I focus on creating responsive, fast, and user-friendly sites that are easy to manage and tailored to each client's needs.</p>
         </div>
     </div>
     <div className='skillbar'>
