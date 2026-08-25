@@ -15,6 +15,7 @@ import portfolio13 from "../../assets/wood-pp.png";
 import portfolio14 from "../../assets/ARF.png";
 import portfolio15 from "../../assets/foundation.png";
 import portfolio16 from "../../assets/devdesign.png";
+import portfolio17 from "../../assets/structura-bio.png";
 
 const Works = () => {
   const [tab, setTab] = useState(1);
@@ -109,6 +110,12 @@ const Works = () => {
       img: portfolio16,
       name: "Dev Designs",
       link: "https://devdesigns.co",
+      key: "wordpress",
+    },
+    {
+      img: portfolio17,
+      name: "Structura Bio",
+      link: "https://structurabio.com",
       key: "wordpress",
     }
   ];
