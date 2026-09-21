@@ -16,6 +16,8 @@ import portfolio14 from "../../assets/ARF.png";
 import portfolio15 from "../../assets/foundation.png";
 import portfolio16 from "../../assets/devdesign.png";
 import portfolio17 from "../../assets/structura-bio.png";
+import portfolio18 from "../../assets/edn.png";
+import portfolio19 from "../../assets/wedrive.png";
 
 const Works = () => {
   const [tab, setTab] = useState(1);
@@ -117,13 +119,27 @@ const Works = () => {
       name: "Structura Bio",
       link: "https://structurabio.com",
       key: "wordpress",
+    },
+    {
+      img: portfolio18,
+      name: "ednhanced",
+      link: "https://www.ednhanced.com/",
+      key: "custom",
+    },
+    {
+      img: portfolio19,
+      name: "wedrivetech",
+      link: "https://wedrivetech.co",
+      key: "custom",
     }
   ];
 
   const filteredData =
-    tab === 1
-      ? Mockdata.filter((item) => item.key === "wordpress")
-      : Mockdata.filter((item) => item.key === "shopify");
+  tab === 1
+    ? Mockdata.filter((item) => item.key === "wordpress")
+    : tab === 2
+    ? Mockdata.filter((item) => item.key === "shopify")
+    : Mockdata.filter((item) => item.key === "custom");
 
   return (
     <section id="works">
@@ -168,7 +184,7 @@ const Works = () => {
         <div
           onClick={() => setTab(3)}
           style={{
-            border: tab === 2 ? "none" : "",
+            border: tab === 3 ? "none" : "",
             padding: "1rem",
             borderRadius: "50px",
             background: "#fff041",

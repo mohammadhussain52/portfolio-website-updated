@@ -138,4 +138,10 @@
     .work-btn {
         margin: 1rem 0;
     }
+    .category {
+    gap: 12px;
+    padding-top: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 }
