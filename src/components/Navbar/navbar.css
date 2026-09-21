@@ -115,6 +115,7 @@ img.mob-menu {
 
     .nav-menu {
         display: block;
+        height: fit-content;
     }
 
     .desktop-menu {
