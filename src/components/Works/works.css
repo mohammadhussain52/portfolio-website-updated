@@ -104,6 +104,14 @@
     padding-top: 2rem;
 }
 
+@media (max-width:767px){
+  .works-tab-btn {
+    padding: 7px !important;
+    width: 111px !important;
+    font-size: 14px;
+}  
+}
+
 @media screen and (max-width:585px) {
     .works-img {
         height: 37vw;
@@ -143,5 +151,5 @@
     padding-top: 0;
     flex-wrap: wrap;
     justify-content: center;
-}
+    }
 }

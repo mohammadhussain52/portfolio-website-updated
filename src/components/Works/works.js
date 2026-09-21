@@ -153,7 +153,7 @@ const Works = () => {
       </p>
 
       <div className="category">
-        <div
+        <div className="works-tab-btn"
           onClick={() => setTab(1)}
           style={{
             border: tab === 1 ? "none" : "",
@@ -167,7 +167,7 @@ const Works = () => {
         >
           Wordpress
         </div>
-        <div
+        <div className="works-tab-btn"
           onClick={() => setTab(2)}
           style={{
             border: tab === 2 ? "none" : "",
@@ -181,7 +181,7 @@ const Works = () => {
         >
           Shopify
         </div>
-        <div
+        <div className="works-tab-btn"
           onClick={() => setTab(3)}
           style={{
             border: tab === 3 ? "none" : "",
