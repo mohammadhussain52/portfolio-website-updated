@@ -165,6 +165,20 @@ const Works = () => {
         >
           Shopify
         </div>
+        <div
+          onClick={() => setTab(3)}
+          style={{
+            border: tab === 2 ? "none" : "",
+            padding: "1rem",
+            borderRadius: "50px",
+            background: "#fff041",
+            color: "#000",
+            cursor: "pointer",
+            width: "138px",
+          }}
+        >
+          Custom
+        </div>
       </div>
 
       <div className="work_items">
