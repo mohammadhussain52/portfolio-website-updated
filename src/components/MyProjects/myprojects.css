@@ -86,11 +86,11 @@
 
 @media screen and (max-width: 480px) {
     #my-projects {
-        padding: 3.25rem 1.15rem 2.75rem;
+        padding: 40px 20px;
     }
 
     .myprojects-title {
-        font-size: 1.55rem;
+        font-size: 2rem;
         line-height: 1.4;
     }
 
