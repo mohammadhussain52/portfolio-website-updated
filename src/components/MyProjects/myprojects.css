@@ -1,0 +1,115 @@
+#my-projects {
+    width: 100%;
+    background: rgb(30, 30, 30);
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5rem 1.5rem 4.5rem;
+}
+
+.myprojects-title {
+    font-size: 2.6rem;
+    font-weight: 500;
+    max-width: 56rem;
+    line-height: 1.35;
+    color: #fff;
+}
+
+.myprojects-title em {
+    font-style: italic;
+    font-weight: 500;
+    color: #fff;
+}
+
+.myprojects-subtitle {
+    margin-top: 1.1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    font-style: italic;
+    color: #fff;
+    letter-spacing: 0.3px;
+}
+
+.myprojects-stats {
+    margin-top: 3.75rem;
+    width: 100%;
+    max-width: 72rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.myprojects-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.85rem;
+}
+
+.myprojects-number {
+    font-size: 3.75rem;
+    font-weight: 500;
+    color: #fff041;
+    line-height: 1;
+    letter-spacing: 0.5px;
+}
+
+.myprojects-label {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+    #my-projects {
+        padding: 4rem 1.5rem 3.5rem;
+    }
+
+    .myprojects-title {
+        font-size: 2.1rem;
+        max-width: 28rem;
+    }
+
+    .myprojects-stats {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 2.75rem;
+        max-width: 36rem;
+    }
+
+    .myprojects-number {
+        font-size: 3.25rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #my-projects {
+        padding: 3.25rem 1.15rem 2.75rem;
+    }
+
+    .myprojects-title {
+        font-size: 1.55rem;
+        line-height: 1.4;
+    }
+
+    .myprojects-subtitle {
+        font-size: 0.85rem;
+        padding: 0 0.5rem;
+    }
+
+    .myprojects-stats {
+        margin-top: 2.5rem;
+        row-gap: 2.25rem;
+        column-gap: 0.75rem;
+    }
+
+    .myprojects-number {
+        font-size: 2.5rem;
+    }
+
+    .myprojects-label {
+        font-size: 0.78rem;
+    }
+}
