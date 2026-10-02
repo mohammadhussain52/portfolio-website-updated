@@ -11,6 +11,8 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
+import php from "../../assets/php.png";
+import js from "../../assets/java.png";
 
 const Contact = () => {
   const form = useRef();
@@ -60,8 +62,16 @@ const Contact = () => {
             <label>CSS</label>
           </span>
           <span className="myskills-card">
+            <img src={js} alt="CSS" className="skills-img"></img>
+            <label>Javascript</label>
+          </span>
+          <span className="myskills-card">
             <img src={bootstrap} alt="CSS" className="skills-img"></img>
             <label>Bootstrap</label>
+          </span>
+          <span className="myskills-card">
+            <img src={php} alt="CSS" className="skills-img"></img>
+            <label>PHP</label>
           </span>
         </div>
       </div>
