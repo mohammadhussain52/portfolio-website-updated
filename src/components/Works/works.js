@@ -8,7 +8,6 @@ import Portfolio5 from "../../assets/RJ.png";
 import Portfolio6 from "../../assets/K9.png";
 import Portfolio7 from "../../assets/DD.png";
 import Portfolio8 from "../../assets/QM.png";
-import Portfolio9 from "../../assets/ML.png";
 import Portfolio11 from "../../assets/FV.png";
 import Portfolio12 from "../../assets/ABZ.png";
 import portfolio13 from "../../assets/wood-pp.png";
@@ -18,6 +17,8 @@ import portfolio16 from "../../assets/devdesign.png";
 import portfolio17 from "../../assets/structura-bio.png";
 import portfolio18 from "../../assets/edn.png";
 import portfolio19 from "../../assets/wedrive.png";
+import portfolio20 from "../../assets/SF.png";
+import portfolio21 from "../../assets/CN.png";
 
 const Works = () => {
   const [tab, setTab] = useState(1);
@@ -47,13 +48,7 @@ const Works = () => {
       link: "https://qmarble-granite.co.uk/",
       key: "wordpress",
     },
-    {
-      img: Portfolio9,
-      name: "Moonlight Hosiery",
-      link: "https://moonlighttextile.com/",
-      key: "wordpress",
-    },
-    
+
     {
       img: Portfolio12,
       name: "ABZ Appliances Repair",
@@ -131,7 +126,20 @@ const Works = () => {
       name: "wedrivetech",
       link: "https://wedrivetech.co",
       key: "custom",
+    },
+    {
+      img: portfolio20,
+      name: "southfloriaautotag",
+      link: "https://southfloridaautotagsagency.com",
+      key: "wordpress",
+    },
+    {
+      img: portfolio21,
+      name: "coders nest",
+      link: "https://codersnest.co",
+      key: "wordpress",
     }
+
   ];
 
   const filteredData =
