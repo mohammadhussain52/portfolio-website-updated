@@ -19,6 +19,7 @@ import portfolio18 from "../../assets/edn.png";
 import portfolio19 from "../../assets/wedrive.png";
 import portfolio20 from "../../assets/SF.png";
 import portfolio21 from "../../assets/CN.png";
+import portfolio22 from "../../assets/gce.png";
 
 const Works = () => {
   const [tab, setTab] = useState(1);
@@ -137,6 +138,12 @@ const Works = () => {
       img: portfolio21,
       name: "coders nest",
       link: "https://codersnest.co",
+      key: "wordpress",
+    },
+    {
+      img: portfolio22,
+      name: "GCEL Group",
+      link: "https://gcelgroup.com/",
       key: "wordpress",
     }
 
