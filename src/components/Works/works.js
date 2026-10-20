@@ -20,6 +20,7 @@ import portfolio19 from "../../assets/wedrive.png";
 import portfolio20 from "../../assets/SF.png";
 import portfolio21 from "../../assets/CN.png";
 import portfolio22 from "../../assets/gce.png";
+import portfolio23 from "../../assets/ikleenforu.png";
 
 const Works = () => {
   const [tab, setTab] = useState(1);
@@ -144,6 +145,12 @@ const Works = () => {
       img: portfolio22,
       name: "GCEL Group",
       link: "https://gcelgroup.com/",
+      key: "wordpress",
+    },
+    {
+      img: portfolio23,
+      name: "ikleenforu",
+      link: "https://ikleen4u.com/",
       key: "wordpress",
     }
 
